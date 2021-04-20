@@ -19,7 +19,7 @@
                   '';
             in
             p.writeTextFile
-              { name = name + ".js";
+              { name = name;
                 text = js';
                 executable = !builtins.isNull node;
                 inherit destination;
