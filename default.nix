@@ -1,4 +1,4 @@
-{ pkgs, system }:
+pkgs:
     let p = pkgs; in
     rec
     { write-js-file =
